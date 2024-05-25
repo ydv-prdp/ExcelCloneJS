@@ -1,0 +1,43 @@
+.cell{
+    width: 80px;
+    height: 40px;
+    border:2px solid darkgray;
+    outline: none;
+    box-sizing: border-box;
+}
+.cell:focus{
+    border:3px solid dodgerblue;
+}
+.cell.header{
+    text-align: center;
+    background:#ddd;
+}
+
+.cell.header.active{
+    background:dodgerblue;
+    color: white;
+
+}
+.cell-row{
+    display: flex;
+}
+
+#export-btn{
+    background: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#heading{
+    color: green;
+}
